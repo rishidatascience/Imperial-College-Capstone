@@ -1,0 +1,18 @@
+## DataSheet 
+## Property	Description
+## Dataset Name	Breast Cancer Diagnostic Dataset
+## Dataset Source	UCI Machine Learning Repository
+## Dataset Description	Breast cancer diagnosis data
+## Number of Instances	569
+## Number of Features	30
+## Target Variable	Diagnosis (Malignant: 0, Benign: 1)
+## Missing Values	None
+## Data Preprocessing	StandardScaler
+## Train-Test Split	80% train, 20% test
+## Model Used	Logistic Regression
+## Hyperparameter Tuning	GridSearchCV (C: [0.001, 0.01, 0.1, 1, 10, 100], Solver: ['lbfgs', 'liblinear', 'saga'])
+## Best Model Accuracy	0.9649
+## Best Model Precision	0.9592
+## Best Model Recall	0.9783
+## Best Model F1 Score	0.9687
+## Best Model ROC AUC	0.9575
