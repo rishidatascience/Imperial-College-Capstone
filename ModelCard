@@ -1,0 +1,31 @@
+
+## Property	Description
+## Model Name	Breast Cancer Diagnostic Model
+## Model Type	Binary Classification
+## Model Purpose	To classify breast cancer as Malignant or Benign
+## Model Version	1.0
+## Model Developer	[Rishi Gulati]
+## Model Creation Date	[20 July 2023]
+## Model Last Update Date	[3:20 pm]
+## Model Performance	Accuracy: 96.49%
+## Precision: 95.92%
+## Recall: 97.83%
+## F1 Score: 96.87%
+## ROC AUC: 95.75%
+## Input Features	30 features extracted from breast cancer data
+## Output Prediction	Diagnosis (Malignant: 0, Benign: 1)
+## Model Architecture	Logistic Regression
+## Hyperparameters	C: [0.001, 0.01, 0.1, 1, 10, 100]
+## Solver: ['lbfgs', 'liblinear', 'saga']
+## Preprocessing	StandardScaler
+## Training Data Source	UCI Machine Learning Repository
+## Data Collection Bias	Data collected from medical records
+## Data Privacy	Data anonymized and compliant with privacy regulations
+## Model Training Bias	Bias may exist in the training data due to demographics or medical practices
+## Model Inference Bias	Model predictions may be biased due to unequal representation in the training data
+## Model Fairness Assessment	Fairness metrics (e.g., disparate impact, equal opportunity) have not been evaluated
+## Model Evaluation Criteria	Model performance metrics (accuracy, precision, recall, F1 score, ROC AUC)
+
+## Model is not a substitute for clinical diagnosis by medical professionals
+## Uncertainties	Uncertainty in predictions due to stochastic nature of the model
+## Uncertainty in the generalization of the model to new data
